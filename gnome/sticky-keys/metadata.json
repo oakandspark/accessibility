@@ -1,9 +1,9 @@
 {
-  "name": "xdotool-gnome bridge",
-  "description": "Bridge giving xdotool support in Gnome",
-  "uuid": "xdotool-ext@semicomplete.com",
+  "name": "GAIA - GNOME Awesome Improvements for Accessibility",
+  "description": "Adds improvements to GNOME to make it more accessible",
+  "uuid": "gaia@oakandspark.com",
   "session-modes": ["user", "unlock-dialog"],
   "shell-version": [
-    "48"
+    "48","49","50"
   ]
 }

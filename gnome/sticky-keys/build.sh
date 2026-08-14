@@ -6,8 +6,8 @@ echo "Compiling typescript -> javascript"
 npm exec tsc 
 
 echo "Installing extension"
-mkdir -p ~/.local/share/gnome-shell/extensions/xdotool-ext@semicomplete.com/ || true
-cp -v dist/*.js stylesheet.css metadata.json ~/.local/share/gnome-shell/extensions/xdotool-ext@semicomplete.com/;
+[ ! -d _build ] && mkdir _build
+cp -v dist/*.js stylesheet.css metadata.json _build/;
 
-echo "Complete"
-#MUTTER_DEBUG_DUMMY_MODE_SPECS=1900x1200 dbus-run-session gnome-shell --nested --wayland
+# Deploying....
+# rsync -av --mkpath /work/gnome/sticky-keys/_build/ /home/dev/.local/share/gnome-shell/extensions/accessibility@oakandspark.com/; gnome-extensions enable accessibility@oakandspark.com
