@@ -1,0 +1,9 @@
+{
+  "name": "xdotool-gnome bridge",
+  "description": "Bridge giving xdotool support in Gnome",
+  "uuid": "xdotool-ext@semicomplete.com",
+  "session-modes": ["user", "unlock-dialog"],
+  "shell-version": [
+    "48"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@girs/gjs": "^4.1.0",
+    "@girs/gnome-shell": "^49.1.0",
+    "@ts-for-gir/cli": "^4.1.0",
+    "typescript": "^5.9.3"
+  },
+  "private": true,
+  "sideEffects": false
+}
