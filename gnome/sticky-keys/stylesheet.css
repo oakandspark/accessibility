@@ -1,4 +1,17 @@
 
-.active {
-  color: orange;
+.sticky-keys-indicator {
+	border-radius: 5px;
+}
+
+.sticky-active {
+	/*
+	background-color: rgba(200, 148, 0, 200);
+	color: white;
+	*/
+	color: rgb(180,128,0);
+}
+
+.sticky-key {
+	border-left: 1px solid black;
+	padding-left: 5px;
 }
